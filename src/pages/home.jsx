@@ -13,7 +13,7 @@ import { Link } from "wouter";
 export default function Home() {
   return (
     <>
-      <h1 className="title">digital fabrication</h1>
+      <h1>digital fabrication</h1>
       <img
         /** src="https://64.media.tumblr.com/57060c46397ada22d68d278146997a37/cfd4ac982e425977-be/s500x750/e09e82b2fb7154fc46cf8cc3e08a836c317fd666.gifv" */
         /** src="https://64.media.tumblr.com/3e7b3c3cd50dd105bb4eb071115982ab/fc10f6313504c52f-08/s1280x1920/4715804753649662c148977f1f6e268960371a7a.jpg" */
