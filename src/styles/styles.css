@@ -96,7 +96,7 @@ h1 {
   line-height: 1.5;
 }
 
-a {
+.page a {
   color: var(--color-text-main);
 }
 
@@ -114,4 +114,8 @@ a {
 
 h2 {
   color: var(--color-headers);
+}
+
+p {
+  color: var(--color-text-main);
 }
