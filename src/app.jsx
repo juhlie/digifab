@@ -25,6 +25,13 @@ export default function Home() {
   return (
     <Router>
       <Seo />
+      <header className="header">
+        <div className="links">
+          <Link href="/">Home</Link>
+          <span className="divider">|</span>
+          <Link href="/1">Handmade Machine</Link>
+        </div>
+      </header>
       <main role="main" className="wrapper">
         <div className="content">
           {/* Router specifies which component to insert here as the main content */}
@@ -36,16 +43,8 @@ export default function Home() {
         <div className="links">
           <Link href="/">Home</Link>
           <span className="divider">|</span>
-          <Link href="/about">About</Link>
+          <Link href="/1">Handmade Machine</Link>
         </div>
-        <a
-          className="btn--remix"
-          target="_top"
-          href="https://glitch.com/edit/#!/remix/glitch-hello-react"
-        >
-          <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" />
-          Remix on Glitch
-        </a>
       </footer>
     </Router>
   );

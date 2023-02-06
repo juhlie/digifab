@@ -75,8 +75,7 @@ to this section's matching END comment to see page-specific styles.
   border-top: 4px solid #fff;
 }
 
-.footer a:not(.btn--remix):link,
-a:not(.btn--remix):visited {
+.footer a, .header a {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: normal;
@@ -145,15 +144,6 @@ h1 {
   text-decoration: none;
 }
 
-/* The React image and "click me" text */
-.btn--click-me {
-  user-select: none;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.btn--click-me:hover {
-  text-decoration: underline;
-}
 
 /* Very light scaling for our illustration */
 .illustration {

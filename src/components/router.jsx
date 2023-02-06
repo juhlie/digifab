@@ -15,6 +15,6 @@ import HandmadeMachine from "../pages/lab1"
 export default () => (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/1" component={HandmadeMachine} />
+      <Route path="/lab1" component={HandmadeMachine} />
     </Switch>
 );
