@@ -10,4 +10,14 @@ Add a footer that mirrors the header (WIP):
         </div>
       </header>
 
-Note to self: use `npm run build && npm run start` to preview locally at http://localhost:4173/
+- responsive homepage
+- moving banner links?
+- responsive project page
+
+- add lab info:
+  - handmade machine
+  - novel button
+  - listening machine
+  - wearable synth sensor
+
+Note to self: use `npm run build && npm run start` to preview locally
