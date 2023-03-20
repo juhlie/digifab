@@ -6,8 +6,8 @@ export default function ListeningMachine() {
       <h1>listening machine lab</h1>
       <p>We made human antennae!!!</p>
       <div className="images">
-        <img src="../../public/lab3-1.png" />
-        <img src="../../public/lab3-2.png" />
+        <img src="/lab3-1.png" />
+        <img src="/lab3-2.png" />
       </div>
       <iframe
         width="560"
@@ -29,23 +29,23 @@ export default function ListeningMachine() {
       </p>
       <p>Diagramming our ideas and converting them to shapes in Fusion 360</p>
       <div className="images">
-        <img src="../../public/lab3-3.png" />
-        <img src="../../public/lab3-4.png" />
-        <img src="../../public/lab3-5.png" />
+        <img src="/lab3-3.png" />
+        <img src="/lab3-4.png" />
+        <img src="/lab3-5.png" />
       </div>
       <p>Using Glowforge to laser cut the Fusion 360 design out of plywood</p>
       <div className="images">
-        <img src="../../public/lab3-6.png" />
-        <img src="../../public/lab3-7.png" />
-        <img src="../../public/lab3-8.png" />
+        <img src="/lab3-6.png" />
+        <img src="/lab3-7.png" />
+        <img src="/lab3-8.png" />
       </div>
       <p>
         Securing and buttressing the antennae using disc cut-outs, and attaching
         them to a helmet made out of cardboard and duct tape
       </p>
       <div className="images">
-        <img src="../../public/lab3-9.png" />
-        <img src="../../public/lab3-10.png" />
+        <img src="/lab3-9.png" />
+        <img src="/lab3-10.png" />
       </div>
       <p>
         We initially connected the contact mics and buzzers to an analog
@@ -53,9 +53,9 @@ export default function ListeningMachine() {
         could be stored more compactly on top of the cardboard helmet
       </p>
       <div className="images">
-        <img src="../../public/lab3-11.png" />
-        <img src="../../public/lab3-12.png" />
-        <img src="../../public/lab3-13.png" />
+        <img src="/lab3-11.png" />
+        <img src="/lab3-12.png" />
+        <img src="/lab3-13.png" />
       </div>
       <p>
         We then taped the contact mics to the top of the antennae and arranged
@@ -68,7 +68,7 @@ export default function ListeningMachine() {
         manually:
       </p>
       <div className="images">
-        <img src="../../public/lab3-1.png" />
+        <img src="/lab3-1.png" />
       </div>
       <span className="empty"></span>
     </div>
