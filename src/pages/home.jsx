@@ -12,7 +12,7 @@ import { Link } from "wouter";
 
 export default function Home() {
   return (
-    <>
+    <div className="homepage">
       <div>
         <h1>digital fabrication</h1>
       </div>
@@ -33,6 +33,6 @@ export default function Home() {
           TIMARA 107A & 107B at Oberlin College
         </p>
       </div>
-    </>
+    </div>
   );
 }

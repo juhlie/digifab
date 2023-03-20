@@ -35,8 +35,8 @@ h1 {
   font-family: Source Code Pro, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: calc(3rem + 3vw);
-  line-height: 105%;
+  font-size: calc(2rem + 2.5vw);
+  margin: 3vw;
   word-break: break-word;
   text-align: center;
 }
@@ -44,11 +44,11 @@ h1 {
 /* Navigation footer */
 .footer {
   z-index: 10;
-  margin: 1rem auto 0;
   padding: 1rem 0rem;
   width: 100%;
   border-top: 4px solid #fff;
   background-color: var(--color-bg);
+  text-align: center;
   grid-area: footer;
 }
 
@@ -64,19 +64,19 @@ h1 {
   background: var(--color-primary);
 }
 
-.footer .links {
+.divider {
+  padding: 0 1rem;
+  color: var(--color-text-main);
+}
+
+/* .footer .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
   padding: 0.5rem 1rem;
   white-space: nowrap;
-}
-
-.divider {
-  padding: 0 1rem;
-  color: var(--color-text-main);
-}
+} */
 
 /* Page structure */
 body {
@@ -85,12 +85,27 @@ body {
 }
 
 .wrapper {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: auto;
   grid-area: main;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    justify-content: flex-start;
+    margin: 20% 0;
+  }
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .page {
@@ -100,7 +115,7 @@ body {
 }
 
 .page h1 {
-  font-size: calc(3rem + 2vw);
+  font-size: calc(2rem + 2vw);
   text-align: left;
 }
 
@@ -113,7 +128,7 @@ body {
 }
 
 /* placeholder cuz idk how else to fix */
-.page .end {
+.end {
   height: 30vh;
 }
 
@@ -163,8 +178,8 @@ iframe {
 h2 {
   color: var(--color-headers);
   text-align: center;
-  font-size: 2rem;
-  padding-top: 2rem;
+  font-size: calc(1rem + 1.5vw);
+  padding-top: calc(1rem + 1vw);
 }
 
 p {
