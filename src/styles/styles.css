@@ -1,19 +1,17 @@
 /******************************************************************************
-START Glitch hello-app default styles
 
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
+i decided to keep this block from the template. why are you lurking, please go outside. 
+
 ******************************************************************************/
+
 /* Our default values set as CSS variables */
 :root {
   --color-bg: #190f52;
   --color-text-main: #ffffff;
   --color-headers: #fac9ff;
   --color-primary: #afece0;
-  --wrapper-height: 85vh;
-  --image-max-width: 320px;
+  --wrapper-height: 85vh; /* unused */
+  --image-max-width: calc(150px + 10vw);
   --font-family: Source Code Pro, sans-serif;
   --font-family-header: Source Code Pro, sans-serif;
 }
@@ -21,20 +19,37 @@ to this section's matching END comment to see page-specific styles.
 /* Basic page style resets */
 * {
   box-sizing: border-box;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 [hidden] {
   display: none !important;
 }
 
-/* Navigation grid - footer */
+body {
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--color-headers);
+  font-family: Source Code Pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: calc(3rem + 3vw);
+  line-height: 105%;
+  word-break: break-word;
+  text-align: center;
+}
+
+/* Navigation footer */
 .footer {
-  display: flex;
-  justify-content: space-between;
+  z-index: 10;
   margin: 1rem auto 0;
-  padding: 1rem 0 0.75rem 0;
+  padding: 1rem 0rem;
   width: 100%;
-  flex-wrap: wrap;
   border-top: 4px solid #fff;
+  background-color: var(--color-bg);
+  grid-area: footer;
 }
 
 .footer a {
@@ -42,7 +57,6 @@ to this section's matching END comment to see page-specific styles.
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
-  color: var(--color-text-main);
   text-decoration: none;
   border-style: none;
 }
@@ -51,9 +65,12 @@ to this section's matching END comment to see page-specific styles.
 }
 
 .footer .links {
-  padding: 0.5rem 1rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 0.5rem 1rem;
   white-space: nowrap;
-  overflow: scroll;
 }
 
 .divider {
@@ -66,44 +83,108 @@ body {
   font-family: Source Code Pro, sans-serif;
   background-color: var(--color-bg);
 }
+
 .wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
-  place-items: center;
-  margin: 0 1rem;
-  min-height: 86vh;
-}
-.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: auto;
+  grid-area: main;
 }
 
-/* Page titles */
-h1 {
-  color: var(--color-headers);
-  font-family: Source Code Pro, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 7rem;
-  line-height: 105%;
-  word-break: break-word;
+.page {
+  max-height: 100vh;
+  max-width: 85%;
+  margin-top: calc(7vh + 7rem);
 }
+
 .page h1 {
-  font-size: 48px;
+  font-size: calc(3rem + 2vw);
+  text-align: left;
 }
 
 .page p {
-  line-height: 1.5;
-}
-
-.page a {
-  color: var(--color-text-main);
+  text-align: left;
 }
 
 .page a:hover {
   text-decoration: none;
+}
+
+/* placeholder cuz idk how else to fix */
+.page .end {
+  height: 30vh;
+}
+
+/* sizing of images and videos */
+.page .images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  gap: 10vw;
+  padding: 3vw 0vw;
+}
+
+.images img {
+  max-width: 100%;
+}
+
+.txt {
+  align-self: center;
+}
+
+@media (max-width: 800px) {
+  .page .images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .images img {
+    max-width: 80vw;
+  }
+}
+
+video {
+  max-width: 100%;
+  padding: 3vh 0vw;
+}
+
+iframe {
+  max-width: 100%;
+  padding: 3vh 0vw;
+}
+
+/* misc styling */
+
+h2 {
+  color: var(--color-headers);
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+#root {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "main" "footer";
+  align-items: center;
+  overflow: hidden;
+  color: var(--color-text-main);
+}
+
+#root a {
+  color: var(--color-text-main);
 }
 
 /* Very light scaling for our illustration */
@@ -111,13 +192,5 @@ h1 {
   max-width: 100%;
   max-height: var(--image-max-width);
   cursor: pointer;
-  padding-left: 3.5rem;
-}
-
-h2 {
-  color: var(--color-headers);
-}
-
-p {
-  color: var(--color-text-main);
+  padding-left: 1rem;
 }

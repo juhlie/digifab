@@ -25,10 +25,8 @@ export default function Home() {
     <Router>
       <Seo />
       <main role="main" className="wrapper">
-        <div className="content">
-          {/* Router specifies which component to insert here as the main content */}
-          <PageRouter />
-        </div>
+        {/* Router specifies which component to insert here as the main content */}
+        <PageRouter />
       </main>
       {/* Footer links to Home and About, Link elements matched in router.jsx */}
       <footer className="footer">
