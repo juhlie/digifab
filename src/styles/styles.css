@@ -36,7 +36,7 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: calc(2rem + 2.5vw);
-  margin: 3vw;
+  margin: 3vw 0;
   word-break: break-word;
   text-align: center;
 }
@@ -94,7 +94,7 @@ body {
   grid-area: main;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .wrapper {
     justify-content: flex-start;
     margin: 20% 0;
@@ -111,7 +111,7 @@ body {
 .page {
   max-height: 100vh;
   max-width: 85%;
-  margin-top: calc(7vh + 7rem);
+  padding: calc(5vw + 2rem) 0;
 }
 
 .page h1 {
@@ -127,9 +127,10 @@ body {
   text-decoration: none;
 }
 
-/* placeholder cuz idk how else to fix */
-.end {
-  height: 30vh;
+/* idk what else to do abt this */
+.empty {
+  height: 10vw;
+  display: block;
 }
 
 /* sizing of images and videos */
