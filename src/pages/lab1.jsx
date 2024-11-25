@@ -18,26 +18,26 @@ export default function HandmadeMachine() {
       </p>
       <p>We constructed the funnel with duct tape and cardboard strips...</p>
       <div className="images">
-        <img src="/lab1-1.png" />
-        <img src="/lab1-2.png" />
-        <img src="/lab1-3.png" />
+        <img src="/lab1-1.jpg" />
+        <img src="/lab1-2.jpg" />
+        <img src="/lab1-3.jpg" />
       </div>
       <p>
         and created the helmet by connecting cardboard strips in a dome-shape...
       </p>
       <div className="images">
-        <img src="/lab1-4.png" />
-        <img src="/lab1-5.png" />
-        <img src="/lab1-6.png" />
+        <img src="/lab1-4.jpg" />
+        <img src="/lab1-5.jpg" />
+        <img src="/lab1-6.jpg" />
       </div>
       <p>
         and attached the funnel and the helmet together. We also used cardboard
         to build walls around a chair, simulating a fun-sized "room".
       </p>
       <div className="images">
-        <img src="/lab1-7.png" />
-        <img src="/lab1-8.png" />
-        <img src="/lab1-9.png" />
+        <img src="/lab1-7.jpg" />
+        <img src="/lab1-8.jpg" />
+        <img src="/lab1-9.jpg" />
       </div>
       <p>Here's a demo of the finished product, the Gigglenator 2000:</p>
       <iframe

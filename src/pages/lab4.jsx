@@ -9,9 +9,9 @@ export default function WearableSynth() {
         which is conductive, can be squished to activate the bear's arrhythmia.
       </p>
       <div className="images">
-        <img src="/lab4-1.png" />
-        <img src="/lab4-2.png" />
-        <img src="/lab4-3.png" />
+        <img src="/lab4-1.jpg" />
+        <img src="/lab4-2.jpg" />
+        <img src="/lab4-3.jpg" />
       </div>
       <p>
         What's this arrhythmia? It's the name of the sonic piece that my
@@ -31,9 +31,9 @@ export default function WearableSynth() {
         range of serial input data.
       </p>
       <div className="images">
-        <img src="/lab4-4.png" />
-        <img src="/lab4-5.png" />
-        <img src="/lab4-6.png" />
+        <img src="/lab4-4.jpg" />
+        <img src="/lab4-5.jpg" />
+        <img src="/lab4-6.jpg" />
       </div>
       <p>
         I ultimately decided to create a pom pom out of yarn and conductive
@@ -51,9 +51,9 @@ export default function WearableSynth() {
         was successful when using a resistor with a small value.
       </p>
       <div className="images">
-        <img src="/lab4-7.png" />
-        <img src="/lab4-8.png" />
-        <img src="/lab4-9.png" />
+        <img src="/lab4-7.jpg" />
+        <img src="/lab4-8.jpg" />
+        <img src="/lab4-9.jpg" />
       </div>
       <p>
         When I was convinced that it was possible to use this pom pom as a
@@ -63,9 +63,9 @@ export default function WearableSynth() {
         for either end of the conductive thread to poke through.
       </p>
       <div className="images">
-        <img src="/lab4-10.png" />
-        <img src="/lab4-11.png" />
-        <img src="/lab4-12.png" />
+        <img src="/lab4-10.jpg" />
+        <img src="/lab4-11.jpg" />
+        <img src="/lab4-12.jpg" />
       </div>
       <p>
         I then connected the conductive thread to solid wire and soldered these
@@ -74,9 +74,9 @@ export default function WearableSynth() {
         interior of the bear.
       </p>
       <div className="images">
-        <img src="/lab4-13.png" />
-        <img src="/lab4-14.png" />
-        <img src="/lab4-15.png" />
+        <img src="/lab4-13.jpg" />
+        <img src="/lab4-14.jpg" />
+        <img src="/lab4-15.jpg" />
       </div>
       <p>
         I continued quilting pieces of scrap fabric together to form the bear's
@@ -95,9 +95,9 @@ export default function WearableSynth() {
         mouth by hand. Notice the difference between the two designs:
       </p>
       <div className="images">
-        <img src="/lab4-16.png" />
-        <img src="/lab4-17.png" />
-        <img src="/lab4-18.png" />
+        <img src="/lab4-16.jpg" />
+        <img src="/lab4-17.jpg" />
+        <img src="/lab4-18.jpg" />
       </div>
       <p>
         For the finishing touches, I sewed some stuffing into the casing for the
@@ -108,9 +108,9 @@ export default function WearableSynth() {
         with the heart.
       </p>
       <div className="images">
-        <img src="/lab4-19.png" />
-        <img src="/lab4-3.png" />
-        <img src="/lab4-1.png" />
+        <img src="/lab4-19.jpg" />
+        <img src="/lab4-3.jpg" />
+        <img src="/lab4-1.jpg" />
       </div>
       <p>
         We decided to give this bear the name "C. Shreddy Bear" as an homage to
