@@ -16,10 +16,10 @@ import WearableSynth from "../pages/lab4";
 
 export default () => (
   <Switch>
-    <Route path="/" component={Home} />
     <Route path="/lab1" component={HandmadeMachine} />
     <Route path="/lab2" component={NovelButton} />
     <Route path="/lab3" component={ListeningMachine} />
     <Route path="/lab4" component={WearableSynth} />
+    <Route path="/" component={Home} />
   </Switch>
 );
