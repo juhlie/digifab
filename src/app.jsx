@@ -1,4 +1,5 @@
 import { Router, Link } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 
 /**
  * This code defines the react app
@@ -10,19 +11,14 @@ import { Router, Link } from "wouter";
  * The router attaches the page components to their paths
  */
 
-// Import and apply CSS stylesheet
 import "./styles/styles.css";
-
-// Where all of our pages come from
 import PageRouter from "./components/router.jsx";
-
-// The component that adds our Meta tags to the page
-import Seo from "./components/seo.jsx";
+import Seo from "./components/seo.jsx"; // The component that adds our Meta tags to the page
 
 // Home function that is reflected across the site
 export default function Home() {
   return (
-    <Router>
+    <Router hook={useHashLocation}>
       <Seo />
       <main role="main" className="wrapper">
         {/* Router specifies which component to insert here as the main content */}

@@ -19,7 +19,6 @@ i decided to keep this block from the template. why are you lurking, please go o
 /* Basic page style resets */
 * {
   box-sizing: border-box;
-  font-size: 1.1rem;
   line-height: 1.5;
 }
 [hidden] {
@@ -190,7 +189,7 @@ p {
 
 #root {
   display: grid;
-  height: 100vh;
+  height: 100dvh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
   grid-template-areas: "main" "footer";

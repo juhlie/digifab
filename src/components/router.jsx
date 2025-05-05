@@ -19,5 +19,6 @@ export default () => (
     <Route path="/lab3" component={ListeningMachine} />
     <Route path="/lab4" component={WearableSynth} />
     <Route path="/" component={Home} />
+    <Route path="/*" component={Home} />
   </Switch>
 );
