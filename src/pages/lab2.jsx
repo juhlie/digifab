@@ -17,12 +17,12 @@ export default function NovelButton() {
         cardstock in the shape of a wave and the walls.
       </p>
       <div className="images">
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-1.png?v=1679586391884" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-1.png?v=1679586391884" />
         <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-2.png?v=1679586390764" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-3.png?v=1679586395937" />
-        {/*        <img src="../../public/lab2-1.png" />
-        <img src="../../public/lab2-2.png" />
-        <img src="../../public/lab2-3.png" /> */}
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-3.png?v=1679586395937" /> */}
+        <img src="/lab2-1.png" />
+        <img src="/lab2-2.png" />
+        <img src="/lab2-3.png" />
       </div>
       <p>
         We taped the waves to the swimming pool walls and added a piece of blue
@@ -36,10 +36,10 @@ export default function NovelButton() {
         space bar.
       </p>
       <div className="images">
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-4.png?v=1679586478474" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-5.png?v=1679586478777" />
-        {/*        <img src="../../public/lab2-4.png" />
-        <img src="../../public/lab2-5.png" /> */}
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-4.png?v=1679586478474" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-5.png?v=1679586478777" /> */}
+        <img src="/lab2-4.png" />
+        <img src="/lab2-5.png" />
       </div>
       <p>
         This computer was connected to Scratch, the block-based programming
@@ -51,10 +51,10 @@ export default function NovelButton() {
         pins on the Makey Makey and different sounds in Scratch.
       </p>
       <div className="images">
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-6.png?v=1679586532140" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-7.png?v=1679586539535" />
-        {/*        <img src="../../public/lab2-6.png" />
-        <img src="../../public/lab2-7.png" /> */}
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-6.png?v=1679586532140" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-7.png?v=1679586539535" /> */}
+        <img src="/lab2-6.png" />
+        <img src="/lab2-7.png" />
       </div>
       <p>
         Finally, the trees, which were activated by a handmade dial that would
@@ -66,20 +66,20 @@ export default function NovelButton() {
         connected to the dial and the batteries with alligator clips.
       </p>
       <div className="images">
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-8.png?v=1679586580115" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-8.png?v=1679586580115" />
         <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-9.png?v=1679586593680" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-10.png?v=1679588455113" />
-        {/*        <img src="../../public/lab2-8.png" />
-        <img src="../../public/lab2-9.png" />
-        <img src="../../public/lab2-10.png" /> */}
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-10.png?v=1679588455113" /> */}
+        <img src="/lab2-8.png" />
+        <img src="/lab2-9.png" />
+        <img src="/lab2-10.png" />
       </div>
       <div className="images">
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-11.png?v=1679588709616" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-11.png?v=1679588709616" />
         <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-12.png?v=1679588711495" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-13.png?v=1679588720865" />
-        {/*        <img src="../../public/lab2-11.png" />
-        <img src="../../public/lab2-12.png" />
-        <img src="../../public/lab2-13.png" /> */}
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab2-13.png?v=1679588720865" /> */}
+        <img src="/lab2-11.png" />
+        <img src="/lab2-12.png" />
+        <img src="/lab2-13.png" />
       </div>
       <p>
         <a
