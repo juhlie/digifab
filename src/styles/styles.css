@@ -146,6 +146,11 @@ body {
   max-width: 100%;
 }
 
+iframe {
+  display: block;
+  margin: auto;
+}
+
 .txt {
   align-self: center;
 }

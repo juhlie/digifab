@@ -21,7 +21,7 @@ export default function Home() {
           // /** src="https://64.media.tumblr.com/3e7b3c3cd50dd105bb4eb071115982ab/fc10f6313504c52f-08/s1280x1920/4715804753649662c148977f1f6e268960371a7a.jpg" */
           // /** src="https://64.media.tumblr.com/2dddd3947f9d25a9a0447984203a5f1d/d390959eae625e4a-bd/s2048x3072/48ef35a00921143e664a790da45b85f3ddec69df.jpg" */
           // src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/floaty_tamagotchi.gif?v=1679585761568"
-          src="/floaty_tamagotchi.gif"
+          src="public/floaty_tamagotchi.gif"
           className="illustration"
           alt="a floating tamagotchi..."
         />

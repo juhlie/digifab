@@ -6,10 +6,10 @@ export default function ListeningMachine() {
       <h1>listening machine lab</h1>
       <p>We made human antennae!!!</p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-1.png?v=1679588785637" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-2.png?v=1679588797100" /> */}
-        <img src="/lab3-1.png" />
-        <img src="/lab3-2.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-1.png?v=1679588785637" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-2.png?v=1679588797100" /> */}
+        <img src="./lab3-1.png" />
+        <img src="./lab3-2.png" />
       </div>
       <iframe
         width="560"
@@ -31,31 +31,31 @@ export default function ListeningMachine() {
       </p>
       <p>Diagramming our ideas and converting them to shapes in Fusion 360</p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-3.png?v=1679588851708" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-4.png?v=1679588860055" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-5.png?v=1679588866601" /> */}
-        <img src="/lab3-3.png" />
-        <img src="/lab3-4.png" />
-        <img src="/lab3-5.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-3.png?v=1679588851708" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-4.png?v=1679588860055" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-5.png?v=1679588866601" /> */}
+        <img src="./lab3-3.png" />
+        <img src="./lab3-4.png" />
+        <img src="./lab3-5.png" />
       </div>
       <p>Using Glowforge to laser cut the Fusion 360 design out of plywood</p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-6.png?v=1679588902882" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-7.png?v=1679588908028" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-8.png?v=1679588914907" /> */}
-        <img src="/lab3-6.png" />
-        <img src="/lab3-7.png" />
-        <img src="/lab3-8.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-6.png?v=1679588902882" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-7.png?v=1679588908028" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-8.png?v=1679588914907" /> */}
+        <img src="./lab3-6.png" />
+        <img src="./lab3-7.png" />
+        <img src="./lab3-8.png" />
       </div>
       <p>
         Securing and buttressing the antennae using disc cut-outs, and attaching
         them to a helmet made out of cardboard and duct tape
       </p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-9.png?v=1679588922569" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-10.png?v=1679588920880" /> */}
-        <img src="/lab3-9.png" />
-        <img src="/lab3-10.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-9.png?v=1679588922569" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-10.png?v=1679588920880" /> */}
+        <img src="./lab3-9.png" />
+        <img src="./lab3-10.png" />
       </div>
       <p>
         We initially connected the contact mics and buzzers to an analog
@@ -63,12 +63,12 @@ export default function ListeningMachine() {
         could be stored more compactly on top of the cardboard helmet
       </p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-11.png?v=1679588926205" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-12.png?v=1679588932964" />
-        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-13.png?v=1679588949442" /> */}
-        <img src="/lab3-11.png" />
-        <img src="/lab3-12.png" />
-        <img src="/lab3-13.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-11.png?v=1679588926205" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-12.png?v=1679588932964" />
+        <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-13.png?v=1679588949442" /> */}
+        <img src="./lab3-11.png" />
+        <img src="./lab3-12.png" />
+        <img src="./lab3-13.png" />
       </div>
       <p>
         We then taped the contact mics to the top of the antennae and arranged
@@ -81,8 +81,8 @@ export default function ListeningMachine() {
         manually:
       </p>
       <div className="images">
-        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94/lab3-1.png?v=1679588785637" /> */}
-        <img src="/lab3-1.png" />
+        {/* <img src="https://cdn.glitch.global/3d578488-eef3-4a33-957d-5d424b110f94lab3-1.png?v=1679588785637" /> */}
+        <img src="./lab3-1.png" />
       </div>
       <span className="empty"></span>
     </div>

@@ -26,15 +26,15 @@ export default function Home() {
       {/* Footer links to Home and About, Link elements matched in router.jsx */}
       <footer className="footer">
         <div className="links">
-          <Link href="/">Home</Link>
+          <Link href="./">Home</Link>
           <span className="divider">|</span>
-          <Link href="/lab1">Handmade Machine</Link>
+          <Link href="./lab1">Handmade Machine</Link>
           <span className="divider">|</span>
-          <Link href="/lab2">Novel Button</Link>
+          <Link href="./lab2">Novel Button</Link>
           <span className="divider">|</span>
-          <Link href="/lab3">Listening Machine</Link>
+          <Link href="./lab3">Listening Machine</Link>
           <span className="divider">|</span>
-          <Link href="/lab4">Wearable Synth</Link>
+          <Link href="./lab4">Wearable Synth</Link>
         </div>
       </footer>
     </Router>
